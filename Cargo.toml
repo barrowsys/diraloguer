@@ -1,0 +1,18 @@
+[package]
+name = "diraloguer"
+version = "0.1.0"
+authors = ["Ezra Barrow <bobbybobson4888@gmail.com>"]
+edition = "2018"
+
+[[example]]
+name = "diraloguer_paragraph"
+path = "examples/paragraph.rs"
+crate-type = ["lib"]
+test = true
+doctest = true
+doc = true
+
+[dependencies]
+console = "0.10.0"
+dialoguer = "0.5.0"
+shh = "1.0.1"
