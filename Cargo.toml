@@ -3,6 +3,7 @@ name = "diraloguer"
 version = "0.1.0"
 authors = ["Ezra Barrow <bobbybobson4888@gmail.com>"]
 edition = "2018"
+license = "GPL-3.0-only"
 
 [[example]]
 name = "diraloguer_paragraph"
